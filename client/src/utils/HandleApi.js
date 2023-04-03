@@ -1,8 +1,8 @@
 import axios from "axios";
 
 
-// const baseUrl = "http://localhost:8000/get"
-const baseUrl2 = "https://fullstack-todo-app-yt-backend-wpxt.onrender.com"
+const baseUrl2 = "http://localhost:8000"
+// const baseUrl2 = "https://fullstack-todo-app-yt-backend-wpxt.onrender.com"
 
 const getAllToDo = (setToDo) =>{
     axios.get(`${baseUrl2}/get`)
